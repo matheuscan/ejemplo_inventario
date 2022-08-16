@@ -1,0 +1,27 @@
+{
+  "name": "ejemplo_inventario",
+  "version": "1.0.0",
+  "description": "Software de sistema de inventario usando como backend Node.js y como gestor de bases de datos MySQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheuscan/ejemplo_inventario.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheuscan/ejemplo_inventario/issues"
+  },
+  "homepage": "https://github.com/matheuscan/ejemplo_inventario#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
